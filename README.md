@@ -16,7 +16,6 @@ Requirements:
  <img src="Images/OATRC_Matched_Features07siParam.jpg" alt="Matched"/> 
  	Matched Features after Rectification (only 20 matches shown for illustration)
 	
-	
-  <img src="Images/OOATRC07GCS_Disp.jpg" alt="Disparity-GCS"/> 
+  <img src="Images/OATRC07GCS_Disp.jpg" alt="Disparity-GCS"/> 
  	Disparity Map created from above input
 	
