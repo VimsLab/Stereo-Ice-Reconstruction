@@ -6,10 +6,12 @@
   4. SIFT package for Matlab from http://www.vlfeat.org/install-matlab.html
   
   
- **Data:**
+ **Data:**      
+    
  Data is hosted here: http://vims.cis.udel.edu/psitres/psitres_db.php
  
  **Usage:**
+      
  The entire workflow is described in the paper: https://github.com/VimsLab/Stereo-Ice-Reconstruction/blob/master/DISP9.pdf
  
  1. Download stereo image pairs from the repository 
