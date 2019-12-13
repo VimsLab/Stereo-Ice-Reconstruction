@@ -2,7 +2,8 @@
 Requirements:
   1. Matlab 2019
   2. Python 3.x
-  3. SIFT package for Matlab from http://www.vlfeat.org/install-matlab.html
+  3. pytorch 1.0.0, texttable, numpy, cv2
+  4. SIFT package for Matlab from http://www.vlfeat.org/install-matlab.html
   
   
  Data:
@@ -28,15 +29,17 @@ Requirements:
 		 
  <img src="Images/OATRC_Matched_Features07siParam.jpg" alt="Matched"/> 
  	Matched Features after Rectification (only 20 matches shown for illustration)
-	
+	       
 	
   <img src="Images/OATRC07GCS_Disp.jpg" alt="Disparity-GCS"/> 
  	Disparity Map created from above input
-	
+	   
+	       
   <img src="Images/Patch9_nmi_mod3.png" alt="Patch9_mod3"/> 
-  	Histogram of Patch Similarity using Normalized Mutual Information
+  	Histogram of Patch Similarity using Normalized Mutual Information. 
 Three regions per image are obtained using Gaussian Mixture Model on NMI scores of kernel pairs (9x9 size)
 
+          
  <img src="Images/RMSE_T.png" alt="RMSE"/>
   	RMSE (Y-axis in pixels) error for each Algorithm by Group
 	Result of applying stereo algorithms using above procedure
