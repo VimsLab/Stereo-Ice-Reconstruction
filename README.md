@@ -24,7 +24,7 @@
  8. Choose the best patch size and nuber of distributions by examining the output of above script
  9. Use the stereo algorithms to estimate the reconstruction of the groups according to previous output
  
- For reconstruction using the Neural Network, download weiths from: https://drive.google.com/file/d/1BlH7IafX-X0A5kFPd50WkZXqxo0_gtoI/view?usp=sharing
+ For reconstruction using the Neural Network, download weights from: https://drive.google.com/file/d/1BlH7IafX-X0A5kFPd50WkZXqxo0_gtoI/view?usp=sharing
  Then run:
  CUDA_VISIBLE_DEVICES=0,1 python DISP_NN.py --datapath ./data-mbtest/   --outdir ./mboutput --loadmodel ./weights/final-768px.tar  --testres 1 --clean 0.8 --max_disp -1
  
