@@ -11,9 +11,12 @@ Requirements:
  Examples :
 
    <img src="Images/OATRC_07_LR_Montage.jpg" alt="LEFT-RIGHT"/>
-    Left and Right Images from OATRC
+    Left and Right Images from PSITRES
 	 	 
  <img src="Images/OATRC_Matched_Features07siParam.jpg" alt="Matched"/> 
  	Matched Features after Rectification (only 20 matches shown for illustration)
-  
+	
+	
+  <img src="Images/OOATRC07GCS_Disp.jpg" alt="Disparity-GCS"/> 
+ 	Disparity Map created from above input
 	
