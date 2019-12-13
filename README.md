@@ -9,11 +9,10 @@ Requirements:
  Usage:
  
  Examples:
- 
- 	![Screenshot](20130821141207-cam12010990-0-17-32987_L.jpg)
-   <img src="Images/20130821132636-cam12010990-0-1-52745_L.jpg" alt="My cool logo"/>
+
+   <img src="Images/20130821132636-cam12010990-0-1-52745_L.jpg" alt="LEFT"/>
     Left Image from OATRC
-	  ![Alt text](https://github.com/VimsLab/Stereo-Ice-Reconstruction/blob/master/Images/20130821132637-cam12010988-1-1-53227_R.jpg)
+ <img src="Images/20130821132637-cam12010988-1-1-53227_R.jpg" alt="RIGHT"/> 
     Right Image from OATRC
 	 
  
