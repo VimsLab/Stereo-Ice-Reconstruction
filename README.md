@@ -36,12 +36,12 @@ Requirements:
   <img src="Images/OATRC07GCS_Disp.jpg" alt="Disparity-GCS"/> 
  	
 	   
-	       Histogram of Patch Similarity using Normalized Mutual Information. 
-Three regions per image are obtained using Gaussian Mixture Model on NMI scores of kernel pairs (9x9 size)
+	       Histogram of Patch Similarity using Normalized Mutual Information. Three regions per image are obtained using Gaussian Mixture Model on NMI scores of kernel pairs (9x9 size). 
+
   <img src="Images/Patch9_nmi_mod3.png" alt="Patch9_mod3"/> 
   	
 
          RMSE (Y-axis in pixels) error for each Algorithm by Group
-	Result of applying stereo algorithms using above procedure 
+	 
  <img src="Images/RMSE_T.png" alt="RMSE"/>
-  	
+  	Result of applying stereo algorithms using above procedure
