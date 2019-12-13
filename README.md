@@ -32,11 +32,12 @@ Requirements:
  <img src="Images/OATRC_Matched_Features07siParam.jpg" alt="Matched"/> 
  	
 	       
-	Disparity Map created from above input
+	Disparity Map using GCS created from above input
   <img src="Images/OATRC07GCS_Disp.jpg" alt="Disparity-GCS"/> 
  	
 	   
-	       Histogram of Patch Similarity using Normalized Mutual Information. Three regions per image are obtained using Gaussian Mixture Model on NMI scores of kernel pairs (9x9 size). 
+	       Histogram of Patch Similarity using Normalized Mutual Information.
+	 Three regions per image are obtained using Gaussian Mixture Model on NMI scores of kernel pairs (9x9 size). 
 
   <img src="Images/Patch9_nmi_mod3.png" alt="Patch9_mod3"/> 
   	
