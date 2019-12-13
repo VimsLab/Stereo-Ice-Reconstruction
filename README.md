@@ -33,14 +33,14 @@ Then run:
 CUDA_VISIBLE_DEVICES=0,1 python DISP_Train.py --maxdisp 32 --batchsize 28 --database /d/ --logname log1 --savemodel /dir/  --epochs 10
  
  
-**Parameters**
+**Parameters:**
         
 testres: 1 is full resolution, and 0.5 is half resolution
 max_disp: maximum disparity range to search
 clean: threshold of cleaning. clean=0 means removing all the pixels.
 
 
- **Examples :**
+ **Examples:**
                                                      
 						               
 	Left and Right Images from PSITRES
