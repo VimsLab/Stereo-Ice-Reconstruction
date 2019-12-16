@@ -67,4 +67,4 @@ clean: threshold of cleaning. clean=0 means removing all the pixels.
          RMSE (Y-axis in pixels) error for each Algorithm by Group
 	 
  <img src="Images/RMSE_T.png" alt="RMSE"/>
-  	Result of applying stereo algorithms using above procedure
+  	Result of applying stereo algorithms using above procedure and calculating RMSE error per group by each method
