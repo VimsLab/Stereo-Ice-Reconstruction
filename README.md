@@ -29,11 +29,11 @@
  For reconstruction using the Neural Network, download weights from: https://drive.google.com/file/d/1BlH7IafX-X0A5kFPd50WkZXqxo0_gtoI/view?usp=sharing
  
  Then run:
- CUDA_VISIBLE_DEVICES=0,1 python DISP_NN.py --datapath ./data-mbtest/   --outdir ./mboutput --loadmodel ./weights/final-768px.tar  --testres 1 --clean 0.8 --max_disp -1
+ CUDA_VISIBLE_DEVICES=0,1 python3 DISP_NN.py --datapath ./data-mbtest/   --outdir ./mboutput --loadmodel ./weights/final-768px.tar  --testres 1 --clean 0.8 --max_disp -1
  
 To train from scratch, download and extract training data in folder /d/. 
 Then run: 
-CUDA_VISIBLE_DEVICES=0,1 python DISP_Train.py --maxdisp 32 --batchsize 28 --database /d/ --logname log1 --savemodel /dir/  --epochs 10
+CUDA_VISIBLE_DEVICES=0,1 python3 DISP_Train.py --maxdisp 32 --batchsize 28 --database /d/ --logname log1 --savemodel /dir/  --epochs 10
  
  
 **Parameters:**
