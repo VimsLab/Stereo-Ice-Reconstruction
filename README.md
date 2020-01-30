@@ -13,8 +13,6 @@
  
  **Usage:**
       
- The entire workflow is described in the paper: https://github.com/VimsLab/Stereo-Ice-Reconstruction/blob/master/DISP9.pdf
- 
  1. Download stereo image pairs from the repository 
  2. Get Rectification parameters by running the script: siftRectify_PARAMS.m
  3. Rectify the stereo image pair using the script: RECT_Images.m
