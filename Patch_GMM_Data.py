@@ -13,9 +13,11 @@ sad=[]
 blm=[]
 sbm=[]
 gcs=[]
-#Create LIST of the Mutual Information & oter vars from oatch_nmi9.npy
+
+#Create LIST of the Mutual Information & other vars from oatch_nmi9.npy
+#Take each element from patch_nmi & insert each of x,y,d, etc. into an array
 for i in range(len(patches)):
-    if patches[i][4] <= 1:
+    if patches[i][4] <= 1: #NMI needs to <=1
         x.append(patches[i][1])
         y.append(patches[i][2])
         d.append(patches[i][3])
@@ -35,6 +37,10 @@ sad = np.stack(sad, axis=0 ).reshape(-1, 1)
 blm = np.stack(blm, axis=0 ).reshape(-1, 1)
 sbm = np.stack(sbm, axis=0 ).reshape(-1, 1)
 gcs = np.stack(gcs, axis=0 ).reshape(-1, 1)
+
+#lst = [x,y,d,sad,blm,sbm,gcs]
+#for item in lst:
+#   item = np.stack(item, axis=0 ).reshape(-1, 1)
 
 gmm = GMM(
     n_components=3,
