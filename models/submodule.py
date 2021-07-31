@@ -59,8 +59,6 @@ def sepConv3d(in_planes, out_planes, kernel_size, stride, pad,bias=False):
         return nn.Sequential(nn.Conv3d(in_planes, out_planes, kernel_size=kernel_size, padding=pad, stride=stride,bias=bias),
                          nn.BatchNorm3d(out_planes))
         
-
-
     
 
 class disparityregression(nn.Module):
