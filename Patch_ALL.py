@@ -7,7 +7,6 @@ path_annotation = '/home/dasgupta/ICE/'
 path_img = '/home/dasgupta/ICE/OATRC_'
 path_DISP = '/home/dasgupta/ICE/OATRC'
 
-
 krn_size = 9
 n=[]
 n_nmi=[]
