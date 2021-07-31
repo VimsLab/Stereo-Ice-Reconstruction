@@ -1,7 +1,7 @@
 # Sea Ice Reconstruction
 
 **Requirements:**
-  1. Matlab 2019
+  1. Matlab 2019 or later
   2. Python 3.x
   3. pytorch 1.0.0, texttable, numpy, cv2
   4. SIFT package for Matlab from http://www.vlfeat.org/install-matlab.html
